@@ -8,7 +8,7 @@ public class Circle {
 	}
 	public int hashCode()
 	{
-		return radius;//%10;
+		return radius%10;
 	}
 	public boolean equals(Object arg)
 	{
